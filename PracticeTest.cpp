@@ -41,7 +41,7 @@ TEST(PracticeTest, is_lowercase_palindrome)
     ASSERT_TRUE(actual);
 }
 
-TEST(PracticeTest, is_upper_&_lower_palindrome)
+TEST(PracticeTest, is_upper_lower_palindrome)
 {
     Practice obj;
     bool actual = obj.isPalindrome("acCA");
