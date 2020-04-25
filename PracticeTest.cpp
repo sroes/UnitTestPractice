@@ -74,21 +74,7 @@ TEST(PracticeTest, descending_sort)
 	ASSERT_EQ(real_second, second);
     ASSERT_EQ(real_third, third);
 }
-TEST(PracticeTest, ascending_sort)
-{
-	Practice obj;
-	int first = 2;
-	int second = 4;
-	int third = 6;
-	int real_first = 2;
-	int real_second = 4;
-	int real_third = 6;
 
-	obj.sortDescending(first, second, third);
-	ASSERT_EQ(real_first, first);
-	ASSERT_EQ(real_second, second);
-    ASSERT_EQ(real_third, third);
-}
 TEST(PracticeTest, descending_swapped)
 {
 	Practice obj;
