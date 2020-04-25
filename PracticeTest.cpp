@@ -80,9 +80,9 @@ TEST(PracticeTest, ascending_sort)
 	int first = 1;
 	int second = 2;
 	int third = 3;
-	int real_first = 1;
+	int real_first = 3;
 	int real_second = 2;
-	int real_third = 3;
+	int real_third = 1;
 
 	obj.sortDescending(first, second, third);
 	ASSERT_EQ(real_first, first);
