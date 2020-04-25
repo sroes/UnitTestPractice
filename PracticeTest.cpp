@@ -77,12 +77,12 @@ TEST(PracticeTest, descending_sort)
 TEST(PracticeTest, ascending_sort)
 {
 	Practice obj;
-	int first = 1;
-	int second = 2;
-	int third = 3;
-	int real_first = 3;
-	int real_second = 2;
-	int real_third = 1;
+	int first = 2;
+	int second = 4;
+	int third = 6;
+	int real_first = 6;
+	int real_second = 4;
+	int real_third = 2;
 
 	obj.sortDescending(first, second, third);
 	ASSERT_EQ(real_first, first);
