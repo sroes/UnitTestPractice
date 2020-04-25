@@ -104,7 +104,8 @@ TEST(PracticeTest, descending_swapped)
 	ASSERT_EQ(real_second, second);
     ASSERT_EQ(real_third, third);
 }
-TEST(PracticeTest, ascending_sort)
+
+TEST(PracticeTest, ascending_swapped)
 {
 	Practice obj;
 	int first = 3;
