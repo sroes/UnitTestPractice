@@ -20,3 +20,42 @@ TEST(PracticeTest, is_simple_palindrome)
     bool actual = obj.isPalindrome("aa");
     ASSERT_TRUE(actual);
 }
+TEST(PracticeTest, is_most_simple_palindrome)
+{
+    Practice obj;
+    bool actual = obj.isPalindrome("a");
+    ASSERT_TRUE(actual);
+}
+
+TEST(PracticeTest, is__uppercase_palindrome)
+{
+    Practice obj;
+    bool actual = obj.isPalindrome("ACCA");
+    ASSERT_TRUE(actual);
+}
+
+TEST(PracticeTest, is_lowercase_palindrome)
+{
+    Practice obj;
+    bool actual = obj.isPalindrome("acca");
+    ASSERT_TRUE(actual);
+}
+
+TEST(PracticeTest, is_upper_&_lower_palindrome)
+{
+    Practice obj;
+    bool actual = obj.isPalindrome("acCA");
+    ASSERT_TRUE(actual);
+}
+TEST(PracticeTest, is_palindrome)
+{
+    Practice obj;
+    bool actual = obj.isPalindrome("stanleyyelnats");
+    ASSERT_TRUE(actual);
+}
+TEST(PracticeTest, is_not_palindrome)
+{
+    Practice obj;
+    bool actual = obj.isPalindrome("stanleyyyelnats");
+    ASSERT_TRUE(actual);
+}
