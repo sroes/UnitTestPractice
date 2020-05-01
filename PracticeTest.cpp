@@ -59,6 +59,22 @@ TEST(PracticeTest, is_not_palindrome)
     bool actual = obj.isPalindrome("stanleyyyelnats");
     ASSERT_TRUE(actual);
 }
+TEST(PracticeTest, ascending_sort)
+{
+	Practice obj;
+	int first = 1;
+	int second = 2;
+	int third = 3;
+	int real_first = 3;
+	int real_second = 2;
+	int real_third = 1;
+
+	obj.sortDescending(first, second, third);
+	ASSERT_EQ(real_first, first);
+	ASSERT_EQ(real_second, second);
+    ASSERT_EQ(real_third, third);
+}
+
 TEST(PracticeTest, descending_sort)
 {
 	Practice obj;
