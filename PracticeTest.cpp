@@ -30,7 +30,7 @@ TEST(PracticeTest, is_not_simple_palindrome)
 {
     Practice obj;
     bool actual = obj.isPalindrome("abc");
-    ASSERT_TRUE(actual);
+    ASSERT_FALSE(actual);
 }
 TEST(PracticeTest, is__uppercase_palindrome)
 {
