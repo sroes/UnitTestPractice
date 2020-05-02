@@ -26,7 +26,12 @@ TEST(PracticeTest, is_most_simple_palindrome)
     bool actual = obj.isPalindrome("a");
     ASSERT_TRUE(actual);
 }
-
+TEST(PracticeTest, is_not_simple_palindrome)
+{
+    Practice obj;
+    bool actual = obj.isPalindrome("abc");
+    ASSERT_TRUE(actual);
+}
 TEST(PracticeTest, is__uppercase_palindrome)
 {
     Practice obj;
